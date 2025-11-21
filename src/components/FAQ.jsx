@@ -2,20 +2,20 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: 'Do you accept my insurance?',
-    a: 'We work with most major PPO plans and will verify your benefits before treatment. We also offer transparent pricing and flexible payment options.'
+    q: 'Am I a candidate for Invisalign?',
+    a: 'Most adults and teens with mild to moderate crowding, spacing, or bite issues are great candidates. We confirm during your free consultation.'
   },
   {
-    q: 'Is treatment painful?',
-    a: 'Your comfort comes first. We use gentle techniques, modern equipment, and offer numbing and sedation options to keep you relaxed.'
+    q: 'How long does Invisalign take?',
+    a: 'Typical treatment ranges from 6–12 months, depending on your case. You\'ll switch trays every 1–2 weeks.'
   },
   {
-    q: 'How soon can I get an appointment?',
-    a: 'We reserve same-week appointments for new patients and do our best to accommodate urgent needs. Call us and we will find you a time.'
+    q: 'What does Invisalign cost?',
+    a: 'Every smile is different. We offer flexible monthly payments and work with insurance to maximize your benefits.'
   },
   {
-    q: 'Do you treat kids?',
-    a: 'Yes. Our friendly team provides care for the whole family and helps little ones feel comfortable during visits.'
+    q: 'Will people notice?',
+    a: 'Aligners are clear and low profile. Most people won\'t notice you\'re wearing them.'
   }
 ]
 
@@ -40,8 +40,8 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-16 md:py-24">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-white text-center">Frequently Asked Questions</h2>
-        <p className="text-blue-100 text-center mt-2">Everything you need to know about visiting our clinic</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-center">Invisalign FAQs</h2>
+        <p className="text-blue-100 text-center mt-2">Answers to common questions about clear aligners</p>
         <div className="mt-10 max-w-3xl mx-auto space-y-3">
           {faqs.map((f) => (
             <Item key={f.q} q={f.q} a={f.a} />

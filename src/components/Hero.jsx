@@ -15,7 +15,7 @@ export default function Hero({ onCTAClick }) {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-6xl font-bold tracking-tight text-white"
             >
-              Confident Smiles, Modern Care
+              Invisalign Made Easy
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -23,7 +23,7 @@ export default function Hero({ onCTAClick }) {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="mt-4 text-lg md:text-xl text-blue-100 max-w-xl"
             >
-              Friendly dentists. Gentle treatments. Flexible hours. Your smile is our priority.
+              Clear, comfortable aligners with flexible payments. Start with a free consultation and 3D smile preview.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -32,19 +32,19 @@ export default function Hero({ onCTAClick }) {
               className="mt-8 flex flex-col sm:flex-row gap-3"
             >
               <button onClick={onCTAClick} className="px-6 py-3 rounded-xl bg-blue-500 hover:bg-blue-400 text-white font-semibold shadow-lg shadow-blue-500/30 transition">
-                Book Free Consultation
+                Get My Free Invisalign Consult
               </button>
-              <a href="#services" className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold backdrop-blur border border-white/20 transition">
-                Explore Services
+              <a href="#invisalign" className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold backdrop-blur border border-white/20 transition">
+                How Invisalign Works
               </a>
             </motion.div>
             <div className="mt-6 flex items-center gap-3 text-blue-200/80 text-sm">
-              <span>Open late • Emergency slots daily • Most insurance accepted</span>
+              <span>Most cases finish in 6–12 months • 0% financing available</span>
             </div>
           </div>
           <div className="relative">
             <div className="absolute -inset-6 bg-blue-500/10 blur-3xl rounded-full" />
-            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1600&auto=format&fit=crop" alt="Dental clinic" className="relative rounded-3xl border border-white/10 shadow-2xl" />
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1600&auto=format&fit=crop" alt="Smiling patient" className="relative rounded-3xl border border-white/10 shadow-2xl" />
           </div>
         </div>
       </div>
