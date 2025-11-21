@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
+import ThreeDental from './ThreeDental'
 
 export default function Hero({ onCTAClick }) {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.15),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.12),transparent_60%)]" />
+      <ThreeDental />
       <div className="container mx-auto px-6 py-20 md:py-28 relative">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
